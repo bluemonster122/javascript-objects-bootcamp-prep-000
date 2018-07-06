@@ -2,5 +2,5 @@
 var playlist = {}
 
 function updatePlaylist(playlist, artist, song) {
-  retunr playlist[artist] = song;
+  return playlist[artist] = song;
 }
